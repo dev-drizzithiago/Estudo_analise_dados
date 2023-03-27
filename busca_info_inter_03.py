@@ -3,7 +3,8 @@ from bs4 import BeautifulSoup
 
 site_html = requests.get('https://www.climatempo.com.br/').content
 soup = BeautifulSoup(site_html, 'html.parser')
+print(soup.prettify())
 
-busca_1 = soup.find_all('a')
-for links in busca_1:
-    print(links.get('href'))
+dados = soup.find_all("p")
+temperatura = dados.string
+print(temperatura)

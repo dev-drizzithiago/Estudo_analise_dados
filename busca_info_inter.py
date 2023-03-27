@@ -9,6 +9,7 @@ varialvel = soup.find_all('a')
 for links in varialvel:
     strings_1 = links.string
     strings_2 = links.get('href')
-    if strings_1 == "Brasil":
-        print(strings_1)
+    if strings_1[0] == 'h':
         print(strings_2)
+    else:
+        print('não tem')
