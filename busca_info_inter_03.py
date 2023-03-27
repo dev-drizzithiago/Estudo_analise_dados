@@ -3,8 +3,8 @@ from bs4 import BeautifulSoup
 
 site_html = requests.get('https://www.climatempo.com.br/').content
 soup = BeautifulSoup(site_html, 'html.parser')
-print(soup.prettify())
 
-dados = soup.find_all("p")
+dados = soup.find("span", class_="_block _margin-b-5 -gray")
 temperatura = dados.string
-print(temperatura)
+for temp in temperatura:
+    print(temperatura)
