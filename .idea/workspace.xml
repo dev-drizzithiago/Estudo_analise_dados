@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="910d3ab7-97f1-4893-aa5b-529990b5d4cc" name="Changes" comment="" />
+    <list default="true" id="910d3ab7-97f1-4893-aa5b-529990b5d4cc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/busca_info_inter_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/busca_info_inter_02.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,10 +37,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.busca_info_inter">
+  <component name="RunManager" selected="Python.busca_info_inter_02">
     <configuration name="busca_info_inter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Estudo_analise_dados" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,9 +107,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.busca_info_inter_02" />
         <item itemvalue="Python.busca_info_inter" />
         <item itemvalue="Python.busca_info_inter_03" />
-        <item itemvalue="Python.busca_info_inter_02" />
       </list>
     </recent_temporary>
   </component>
